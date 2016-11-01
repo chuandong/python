@@ -5,6 +5,7 @@ class Duck():
     @property
     def name(self):
         print('inside the getter')
+		print('use git pull command ')
         return self.hidden_name
     @name.setter
     def name(self,input_name):
